@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Baloo 2", sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   min-height: 100vh;
   display: -webkit-box;
   display: flex;
@@ -20,19 +20,14 @@ header,
 footer {
   display: grid;
   place-items: center;
-  background-color: rebeccapurple;
+  background-color: #26a69a;
   color: #fff;
 }
 
-main {
-  padding: 1rem;
-  max-width: 80ch;
-  margin: 0 auto;
-  outline: 2px dashed grey;
-}
+
 .footer-copyright {
-  padding-bottom: 1rem;
-  padding-top: 1rem
+  padding-top: 1rem;
+  width: 100%;
 }
 
 nav ul a, nav .brand-logo {
@@ -46,7 +41,13 @@ p {
 .sidenav-trigger {
   color: #26a69a;
 }
-
+/* helpers */
+.full_width{
+  width: 100%;
+}
+.section{
+  padding-top: 64px;
+}
 .cover {
   height: -o-calc(100% - 56px);
   /* opera */
